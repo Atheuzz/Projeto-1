@@ -165,3 +165,62 @@ h2 {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+
+/* RESPONSIVIDADE PARA CELULAR */
+
+@media (max-width: 768px) {
+
+    .topo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    .destaque {
+        flex-direction: column;
+    }
+
+    .manchetes,
+    .inuteis {
+        width: 100%;
+    }
+
+    .noticia {
+        flex-direction: column;
+    }
+
+    .noticia img {
+        width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .diario h1 {
+        font-size: 28px;
+    }
+
+    .diario p {
+        font-size: 16px;
+    }
+
+    .foto-carro {
+        width: 100%;
+        max-height: none;
+    }
+}
