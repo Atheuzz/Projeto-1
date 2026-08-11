@@ -39,13 +39,61 @@ main{
 }
 
 .destaque{
+    display: flex;
+    align-items: flex-start;
+    gap: 0px;
+    width: 90%;
+    margin: 10px auto;
+}
+.destaque img{
+    width: 200px;
+    height: auto;
+}
+
+.manchetes {
+    width: 60%;
+}
+
+.inuteis {
+    width: 45%;
+}
+.noticia {
     background:white;
     padding:25px;
     border-radius:10px;
     margin-bottom:30px;
     box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 20px;
 }
 
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.card {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width: 60%;
+    height: 50%;
+    padding-bottom: 0px;
+    padding-top: 20px;
+
+
+}
+.img2 img{
+    width: 64   %;
+    height: 50%;
+}
 .destaque h2{
     color:#ff6600;
     margin-bottom:15px;
