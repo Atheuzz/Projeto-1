@@ -99,6 +99,9 @@ main {
     width: 100%;
     border-radius: 10px;
 }
+.card a:hover{
+    color: #FFA500;
+}
 
 h2 {
     color: #ff6600;
@@ -112,8 +115,7 @@ h2 {
     margin-top: 10px;
 }
 .botao:hover {
-    background-color: #444;
-    color: #ff6600;
+    color: #FFA500;
 }
 
 
