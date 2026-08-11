@@ -111,8 +111,8 @@ h2 {
     border-radius: 5px;
     margin-top: 10px;
 }
-.botao a:hover{
-    background-color: #ff6600;
+.botao:hover{
+    color: #ff6600;
 }
 
 
