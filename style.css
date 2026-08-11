@@ -234,3 +234,33 @@ h2 {
     max-width: 800px;
     border-radius: 10px;
 }
+.materia-video {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.video {
+    width: 50%;
+}
+
+.texto-noticia {
+    width: 50%;
+}
+
+.texto-noticia p {
+    text-align: justify;
+    line-height: 1.6;
+}
+@media (max-width: 768px) {
+
+    .materia-video {
+        flex-direction: column;
+    }
+
+    .video,
+    .texto-noticia {
+        width: 100%;
+    }
+}
