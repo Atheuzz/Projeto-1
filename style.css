@@ -106,17 +106,16 @@ h2 {
 
 .botao {
     display: inline-block;
-    background-color: #222;
-    color: white;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
     margin-top: 10px;
 }
-
-.botao:hover {
-    background-color: #444;
+.botao a:hover{
+    background-color: #ff6600;
 }
+
+
 
 /* Página da notícia */
 
