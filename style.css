@@ -111,10 +111,10 @@ h2 {
     border-radius: 5px;
     margin-top: 10px;
 }
-.botao:hover{
+.botao:hover {
+    background-color: #444;
     color: #ff6600;
 }
-
 
 
 /* Página da notícia */
