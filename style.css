@@ -157,3 +157,10 @@ h2 {
     line-height: 1.7;
     text-align: justify;
 }
+.foto-carro {
+    width: 40%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
