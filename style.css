@@ -230,7 +230,7 @@ h2 {
 }
 
 .video-materia iframe {
-    width: 100%;
-    max-width: 100px;
+    width: 50%;
+    max-width: auto;
     border-radius: 10px;
 }
