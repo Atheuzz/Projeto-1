@@ -225,15 +225,6 @@ h2 {
     }
 }
 
-.video-materia {
-    margin-top: 30px;
-}
-
-.video-materia iframe {
-    width: 50%;
-    max-width: 800px;
-    border-radius: 10px;
-}
 .materia-video {
     display: flex;
     gap: 20px;
@@ -252,15 +243,4 @@ h2 {
 .texto-noticia p {
     text-align: justify;
     line-height: 1.6;
-}
-@media (max-width: 768px) {
-
-    .materia-video {
-        flex-direction: column;
-    }
-
-    .video,
-    .texto-noticia {
-        width: 100%;
-    }
 }
