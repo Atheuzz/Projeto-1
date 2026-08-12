@@ -225,11 +225,11 @@ h2 {
     }
 }
 
-.video-materia {
+.materia-video {
     margin-top: 30px;
 }
 
-.video-materia iframe {
+.materia-video iframe {
     width: 50%;
     max-width: 800px;
     border-radius: 10px;
