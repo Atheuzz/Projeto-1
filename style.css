@@ -224,16 +224,6 @@ h2 {
         max-height: none;
     }
 }
-.video-materia {
-    margin-top: 30px;
-}
-
-.video-materia iframe {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 10px;
-}
-
 .materia-video {
     display: flex;
     gap: 20px;
